@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Coding Temple's gym</title>
+    <link rel="stylesheet" href="gym.css">
+</head>
+<body>
+    <header class="center">
+        <label class="mobile-nav-btn" for="navCb">|||</label>
+        <input type="checkbox" checked id="navCb">
+        <div class="columns">
+            <nav>
+                <a href="index.html" class="active"><span>Home</span></a>
+                <a href="about.html"><span>About us</span></a>
+                <a href="services.html"><span>Services</span></a>
+                <a href="classes.html"><span>Classes</span></a>
+                <a href="blog.html"><span>Blog</span></a>
+                <a href="contact-us.html"><span>Contact Us</span></a>
+                <a href="singup.html"><span>Sign Up</span></a>
+                <a href="login.html"><span>Log In</span></a>
+
+            </nav>
+        </div>
+    </header>
+    <section class="signup">
+        <form action="action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+              <h1>Sign Up</h1>
+              <p>Please fill in this form to create an account.</p>
+              <hr>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+          
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+              <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+            </div>
+          </form>
+    </section>
+    
+</body>
+</html>
